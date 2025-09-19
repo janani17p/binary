@@ -1,7 +1,14 @@
-I am trying to create a Verilog model binary_to_bcd_converter for a binary to binary-coded-decimal converter. It must meet the following specifications:
-	- Inputs:
-		- Binary input (5-bits)
-	- Outputs:
-		- BCD (8-bits: 4-bits for the 10's place and 4-bits for the 1's place)
-
-How would I write a design that meets these specifications?
+{
+	"general": {
+        "prompt": "./binary_to_bcd.sv",
+        "name": "binary_to_bcd_converter",
+        "testbench": "./binary_to_bcd_tb.sv",
+		"model_family": "ChatGPT",
+		"model_id": "gpt-4o-mini",
+		"num_candidates": 5,
+		"iterations": 5,
+        "outdir": "outputs_7420",
+        "log": "log.txt",
+		"ensemble": false
+    }
+}
