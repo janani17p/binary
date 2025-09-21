@@ -76,7 +76,7 @@ end
 reg vcd_clk;
 initial begin
     $dumpfile("my_design.vcd");
-    $dumpvars(0, tb_binary_to_bcd_converter);
+    $dumpvars(0, tb);
 end
 
 always #5 vcd_clk = ~vcd_clk; // Toggle clock every 5 time units
