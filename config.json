@@ -5,8 +5,8 @@
         "testbench": "./binary_to_bcd_tb.sv",
 		"model_family": "ChatGPT",
 		"model_id": "gpt-4o-mini",
-		"num_candidates": 5,
-		"iterations": 5,
+		"num_candidates": 1,
+		"iterations": 1,
         "outdir": "outputs_7420",
         "log": "log.txt",
 		"ensemble": false
