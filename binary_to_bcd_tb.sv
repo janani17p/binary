@@ -35,7 +35,7 @@ end
 
 endmodule
 
-module tb_binary_to_bcd_converter;
+module tb;
 
 reg [4:0] binary_input;
 wire [7:0] bcd_output;
